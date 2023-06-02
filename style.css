@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.vid video{
+    width: 500px;
+}
+.vid{
+    grid-row: span 4;
+    grid-column: span 4; 
+}
+.btn img{
+    height: 100px;
+  
+}
+.container{
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    padding-top: 100px;
+}
+.btn{
+    grid-column: span 2;
+}
+.bgvid{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
